@@ -1,0 +1,78 @@
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding:10px;
+    width:1024px;
+    margin: 0 auto;
+    color:#404040;
+    position:relative;
+    font-size: 11pt ;
+    box-shadow: 3px 3px #bfbcbe, -4px -4px 1em #555555;
+    background: white url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg") repeat fixed; /* by default repeat */
+}
+section{
+    margin-bottom:40px;
+}
+a{
+    color:#A4A400;
+    transition: 1s;
+}
+a:visited{
+    color:blue;
+}
+a:hover{
+    color:green;
+    font-size:18px;
+}
+
+a img:hover{
+    width:100px;
+    box-shadow: 0px 0 #bfbcbe, -9px 10px 8px #555555;
+}
+
+
+a:active{
+    color:rgb(230, 175, 73)
+}
+h1 span{
+    background-color: #F0F0F0;
+    padding:10px;
+    cursor: zoom-in;
+    color:#A4A400;
+    text-decoration:underline;
+    font-family: Lucida Sans Unicode, Helvetica, Arial;
+    font-size: 18pt;
+    letter-spacing: 0.25em;
+}
+
+header h1{
+text-align: center;
+font: 22pt bold;
+}
+
+header pre{
+white-space: pre-line;
+}
+
+abbr{
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+
+.user-comments blockquote pre{
+    white-space: pre-line;
+    font-style: italic;
+    background-color:#FFFFA8;
+}
+
+
+ul>li{
+    list-style-image: url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif");
+}
+
+
+footer pre{
+    white-space: pre-line;
+    text-align-last: right;;
+}
