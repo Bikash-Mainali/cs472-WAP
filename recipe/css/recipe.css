@@ -34,7 +34,7 @@ a img:hover{
 a:active{
     color:rgb(230, 175, 73)
 }
-h1 span{
+h1 span, h2 span{
     background-color: #F0F0F0;
     padding:10px;
     cursor: zoom-in;
