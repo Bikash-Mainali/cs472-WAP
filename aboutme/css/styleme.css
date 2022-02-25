@@ -1,0 +1,105 @@
+body{
+    padding:10px;
+    margin:0;
+    font-size: 16px;
+    font-family: Arial;
+    background-color:rgb(59, 57, 57) ;
+    color:white;
+    width:70%;
+    margin:auto;
+    box-shadow:rgb(112 133 220) -2px 1px 6px 0px;
+
+}
+/* additional challenge */
+a:link{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+
+p::first-letter{
+    font-size:1.5em;
+}
+
+/*.............*/
+
+h1{
+    font-size:70px;
+}
+h2{
+    font-size: 30px;
+}
+
+h1, h2{
+    color:rgb(115 142 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-top:50px;
+}
+
+header span{
+    color:rgb(255 253 0 / 99%);
+}
+
+section ol a{
+color:red;
+}
+
+section #movie p{
+    font-style: italic;
+}
+section #moods img{
+    height:300px;
+    width: 300px;
+    border-radius:3%;
+    transition:.5s;
+}
+
+section #moods figure{
+display:flex;
+justify-content:space-evenly;
+text-align: center;
+}
+
+section #moods img:hover{
+    width:320px;
+    height:320px;
+    opacity:0.5;
+    box-shadow:-4px 4px 12px 0px rgb(215 215 215);
+}
+
+section #moods figure .column{
+    position:relative;
+}
+
+section #moods figure .column figcaption{
+    position:absolute;
+    top:50%;
+    left:40%;
+    color:#fafafa;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:cursive;
+}
+footer pre{
+    white-space: pre-line;
+    text-align-last: right;
+}
+
+footer aside ul{
+    list-style: none;
+}
+footer aside ul li a{
+    color:rgb(255 253 0 / 99%);
+    font-size: 15px;;
+}
+footer aside ul li a:hover{
+    color:white;
+}
+
+footer a img:hover{
+    width:100px;
+    box-shadow: 0px 0 #f5f5f5, -4px 3px 3px white;
+    opacity: 0.8;
+}
