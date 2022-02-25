@@ -49,26 +49,34 @@ color:red;
 section #movie p{
     font-style: italic;
 }
-section #moods img{
+section figure{
+    display: inline-block;
+}
+section figure img{
+    height:200px;
+    width:200px;
+}
+
+section figure img{
     height:300px;
     width: 300px;
     border-radius:3%;
     transition:.5s;
 }
 
-section #moods figure{
+section figure figure{
 display:flex;
 justify-content:space-evenly;
 text-align: center;
 }
 
-section #moods img:hover{
+section figure img:hover{
     width:320px;
     height:320px;
     opacity:0.5;
     box-shadow:-4px 4px 12px 0px rgb(215 215 215);
 }
-
+/*
 section #moods figure .column{
     position:relative;
 }
@@ -82,6 +90,7 @@ section #moods figure .column figcaption{
     font-size: 30px;
     font-family:cursive;
 }
+*/
 footer pre{
     white-space: pre-line;
     text-align-last: right;
