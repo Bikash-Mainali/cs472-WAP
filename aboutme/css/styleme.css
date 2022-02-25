@@ -41,6 +41,15 @@ h1, h2{
 header span{
     color:rgb(255 253 0 / 99%);
 }
+header p:nth-child(3){
+    transform: scaleY(-1);
+
+}
+section ol{
+    display:flex;
+    flex-direction: column-reverse;
+
+}
 
 section ol a{
 color:red;
