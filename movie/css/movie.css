@@ -1,0 +1,313 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 8pt;
+	font-family: sans-serif;
+	background: url("../images/background.png") repeat;
+}
+
+header {
+	height: 50px;
+	background-image: url("../images/bannerbg.png");
+	background-repeat: repeat-x;
+}
+
+header div img {
+	display: block;
+	min-width: 550px;
+	width: 30%;
+	margin: auto;
+	height: 50px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 24pt;
+	text-align: center;
+	text-shadow: 3px 3px #999999;
+}
+
+#main-container {
+	border: 4px solid grey;
+	border-radius: 20px;
+	width: 800px;
+	/*50%*/
+	min-width: 800px;
+	margin: auto;
+	overflow: auto;
+	position: relative;
+}
+
+#main-container-header {
+	background-image: url("../images/rbg.png");
+	width: auto;
+	border-radius: 16px 0px 0px 0px;
+	height: 83px;
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+	box-sizing: border-box;
+}
+
+#main-container-header span {
+	vertical-align: top;
+}
+
+#main-container .main-container-header img {
+	border-radius: 16px 0 0 0;
+	margin-right: 20px;
+	height: 83px;
+}
+
+
+/* left most section (reviews section) */
+
+#main-container .review {
+	clear: left;
+	float: left;
+	width: 550px;
+}
+
+.left-blockquote {
+	width: 47%;
+	float: left;
+}
+
+.right-blockquote {
+	width: 47%;
+	float: left;
+}
+
+.review blockqote {
+	margin-bottom: 20pt;
+}
+
+.review blockquote p:first-child {
+	border: 2px solid gray;
+	border-radius: 10px;
+	background-color: #E8DC9B;
+	font-weight: bold;
+	padding: 14px;
+}
+
+.review blockquote img {
+	float: left;
+	margin-right: 5px;
+}
+
+.review blockquote p {
+	font: 8px;
+}
+
+.review blockquote .reviewer {
+	font-style: italic;
+}
+
+.review blockquote p:nth-child(2) {
+	margin-right: 5px;
+	;
+}
+
+
+/* right most section (general overview section) */
+
+#main-container .overview {
+	width: 250px;
+	float: right;
+	background-color: #A2B964;
+	font-size: 8pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.overview dl {
+	margin: 0 10pt 0 10px;
+}
+
+.overview dt {
+	margin-top: 10pt;
+	font-weight: bold;
+}
+
+.overview img {
+	width: 100%;
+}
+
+footer {
+	width: 100%;
+	display: block;
+	position: absolute;
+	text-align: center;
+	background-color: #A2B964;
+	bottom: 0;
+	padding: 5px 0 5px 0;
+	z-index: -1;
+}
+
+.validator {
+	right: 0;
+	opacity: 0.5;
+	position: fixed;
+	bottom: 0;
+}
+
+.validator img:hover {
+	width: 100px;
+	box-shadow: 0px 0 #bfbcbe, -9px 10px 8px #555555;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 8pt;
+	font-family: sans-serif;
+	background: url("../images/background.png") repeat;
+}
+
+header {
+	height: 50px;
+	background-image: url("../images/bannerbg.png");
+	background-repeat: repeat-x;
+}
+
+header div img {
+	display: block;
+	min-width: 550px;
+	width: 30%;
+	margin: auto;
+	height: 50px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 24pt;
+	text-align: center;
+	text-shadow: 3px 3px #999999;
+}
+
+#main-container {
+	border: 4px solid grey;
+	border-radius: 20px;
+	width: 800px;
+	/*50%*/
+	min-width: 800px;
+	margin: auto;
+	overflow: auto;
+	position: relative;
+}
+
+#main-container-header {
+	background-image: url("../images/rbg.png");
+	width: auto;
+	border-radius: 16px 0px 0px 0px;
+	height: 83px;
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+	box-sizing: border-box;
+}
+
+#main-container-header span {
+	vertical-align: top;
+}
+
+#main-container .main-container-header img {
+	border-radius: 16px 0 0 0;
+	margin-right: 20px;
+	height: 83px;
+}
+
+
+/* left most section (reviews section) */
+
+#main-container .review {
+	clear: left;
+	float: left;
+	width: 550px;
+}
+
+.left-blockquote {
+	width: 47%;
+	float: left;
+}
+
+.right-blockquote {
+	width: 47%;
+	float: left;
+}
+
+.review blockqote {
+	margin-bottom: 20pt;
+}
+
+.review blockquote p:first-child {
+	border: 2px solid gray;
+	border-radius: 10px;
+	background-color: #E8DC9B;
+	font-weight: bold;
+	padding: 14px;
+}
+
+.review blockquote img {
+	float: left;
+	margin-right: 5px;
+}
+
+.review blockquote p {
+	font: 8px;
+}
+
+.review blockquote .reviewer {
+	font-style: italic;
+}
+
+.review blockquote p:nth-child(2) {
+	margin-right: 5px;
+	;
+}
+
+
+/* right most section (general overview section) */
+
+#main-container .overview {
+	width: 250px;
+	float: right;
+	background-color: #A2B964;
+	font-size: 8pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.overview dl {
+	margin: 0 10pt 0 10px;
+}
+
+.overview dt {
+	margin-top: 10pt;
+	font-weight: bold;
+}
+
+.overview img {
+	width: 100%;
+}
+
+footer {
+	width: 100%;
+	display: block;
+	position: absolute;
+	text-align: center;
+	background-color: #A2B964;
+	bottom: 0;
+	padding: 5px 0 5px 0;
+	z-index: -1;
+}
+
+.validator {
+	right: 0;
+	opacity: 0.5;
+	position: fixed;
+	bottom: 0;
+}
+
+.validator img:hover {
+	width: 100px;
+	box-shadow: 0px 0 #bfbcbe, -9px 10px 8px #555555;
+}
