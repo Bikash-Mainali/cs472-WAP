@@ -1,0 +1,27 @@
+.nav-menu {
+    background-color: #49beeb;
+    padding:5px 0px 5px 0px;
+}
+
+.btn {
+    padding: 8px 20px 8px 20px !important;
+    margin-right: 20px;
+}
+
+.center-body {
+    width: 80%;
+    margin: 10% AUTO;
+}
+
+nav li{
+padding:5px 20px 5px 20px;
+border-left: 2px solid white;
+text-align: center;
+}
+.navbar-header a{
+    padding:5px;
+}
+
+.nav-menu .navbar a{
+    color:white !important;
+}

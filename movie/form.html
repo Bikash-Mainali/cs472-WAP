@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <form  validate autocomplete="off">
+
+            <fieldset>
+                <legend>Student Information</legend>
+                <div>
+                    <input type="hidden" name="data_id" value="12">
+                </div>
+            <div>
+                <label for="studentId">Student Id</label>
+            </div>
+            <div>
+                <input type="text" name="studentId" id="stidentId"   maxlength="10" required autofocus/>
+            </div>
+            <div>
+                <label for="fullname">Full Name</label>
+            </div>
+            <div> <input type="text" name="fullname" id="fullname" />
+            </div>
+            <div>
+                <label for="phoneno">Phone No.</label>
+            </div>
+            <div>
+                <input type="phoneno" id="phoneno" type="tel" pattern = "[0-9]{10}" placeholder="xxx-xxx-xxxx" title="must be 10 digits"  required>
+            </div> 
+            <div>
+                <label for="aboutMe">About Me</label>
+            </div>
+            <div>
+                <textarea type="text" rows="4" cols="10" id="aboutMe"></textarea>
+
+            </div>
+        </fieldset>
+            <div>
+                Favourite Courses:
+            </div>
+            <div>
+                <label for="course1">
+
+                    <input type="checkbox" id="course1" name="course1" checked value="course1">Course 1
+                </label>
+            </div>
+            <div>
+
+                <label for="course2">
+
+                    <input type="checkbox" id="course2" name="course2" checked value="course2">Course 2
+                </label>
+            </div>
+            <div>
+
+                <label for="course3">
+
+                    <input type="checkbox" id="course3" name="course3" value="course3">Course 3
+                </label>
+            </div>
+
+            <div>Level of study:</div>
+            <div>
+                <label for="levelstudy1">
+                    <input type="radio" name="levelstudy" id="levelstudy1" value="grad">Graduate
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="levelstudy" id="levelstudy2" value="undergrad">Undergraduate
+                </label>
+            </div>
+            <div>
+                <select multiple size="3" name="semester" id="semester">
+                    <optgroup label="First">
+                    <option value="spring">Spring</option>
+                    <option selected value="summer">Summer</option>
+                </optgroup>
+                <optgroup label="First">
+                    <option value="Fall">Fall</option>
+                    <option value="Winter">Winter</option>
+                </optgroup>
+
+                </select>
+            </div>
+      
+            <input type="submit" value="SUBMIT">
+            <input type="button" value="OK">
+            <input type="reset" value="Reset">
+
+        </form>
+    </main>
+</body>
+
+</html>
