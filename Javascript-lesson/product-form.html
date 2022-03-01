@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../html-css-lesson/webform/webform.css" rel="stylesheet">
+    <script defer src="js/app.js"></script>
+
+
+    <title>Web form 2</title>
+</head>
+
+<body>
+    <div class="row nav-menu p-2">
+        <div class="col-md-10 col-lg-10">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">MIU Golden Dom Market ::: SRM System</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Suppliers</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="col-md-2 col-lg-2 text-center pt-3 d-flex justify-content-around">
+            <span class="mt-2 text-white">Hello!</span>
+            <span><button class="btn btn-light">SignOut</button></span>
+            <span id="clock" class="text-white"></span>
+        </div>
+    </div>
+    <section class="center-body">
+        <form validate autocomplete="off" id="product-form">
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <label>Product No.</label>
+                        <input type="text" class="form-control mt-2 ">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <label>Quantity in stock</label>
+                        <input type="number" class="form-control mt-2" min="0" value="0">
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" class="form-control mt-2">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <label>Supplier</label>
+                        <select class="form-control">
+                            <optgroup label="group1">
+                                <option>abc</option>
+                                <option>abc</option>
+                                <option>abc</option>
+                            </optgroup>
+                            <optgroup label="group2">
+                                <option>abc</option>
+                                <option>abc</option>
+                                <option>abc</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <label>Unit Price</label>
+                        <input type="text" class="form-control mt-2" value="0.0">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <label>Date supplied</label>
+                        <input type="date" class="form-control" name="begin" placeholder="yyyy-mm-dd" value=""
+                            min="1997-01-01" max="2030-12-31">
+                        <small class="text-muted">enter a valid date</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row float-end mt-4">
+                <div class="col-md-12 col-lg-12">
+                    <button type="reset" class="btn btn-outline-primary border border-primary">Reset</button>
+                    <button type="cancel" class="btn btn-outline-danger border border-danger">Cancel</button>
+                    <button type="button" class="btn btn-outline-info border border-info" onclick="addProduct()">Add Product</button>
+                </div>
+            </div>
+    </section>
+    </form>
+
+    </div>
+</body>
+
+</html>

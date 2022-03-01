@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script defer src="js/app.js"></script>
+
+    <title>Web Form 1</title>
+</head>
+
+<body>
+
+    <form class="m-5" id="login-form">
+        <div class="form-group mb-4">
+            <label for="email">
+                Email Address<span class="text-danger">*</span>
+            </label>
+            <input type="email" class="form-control mt-2" id="email" name="email" placeholder="Enter email" required>
+            <small class="text-muted mt-2">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group mb-4">
+            <label for="password">Password<span class="text-danger">*</span></label>
+            <input type="password" class="col-lg-6 form-control mt-2" id="password" name="password"
+                placeholder="Password" required pattern="^(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{10,}$"
+                title="you must have atleast 10 character, one Upper case and lower case">
+        </div>
+        <div class="form-check mb-3">
+            <input type="checkbox" class="form-check-input" id="check-me-out" value="check-me-out">
+            <label for="check-me-out">Check me out </label>
+        </div>
+        <div class="form-group mb-4">
+            <label for="password">Website<span class="text-danger">*</span></label>
+            <input type="text" class="col-lg-6 form-control mt-2" id="website" name="website" placeholder="Website Url"
+                required pattern="^(http|https):\/\/.*$" title="url must contains http:// or https://">
+        </div>
+        <input type="submit" value="Submit" class="btn btn-primary" onclick="login()">
+    </form>
+    <p id="form-data"></p>
+</body>
+
+</html>
