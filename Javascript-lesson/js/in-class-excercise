@@ -1,0 +1,45 @@
+
+
+////function as a variable => function expression which can not be hoisted
+//but simply function can be hoisted;
+
+function findMax() {
+    var i;
+    var max = -Infinity;
+    for (i = 0; i < arguments.length; i++) {
+        if (arguments[i] > max) {
+            max = arguments[i];
+        }
+    }
+    return max;
+}
+
+var x = findMax(1, 123, 500, 115, 44, 88); // 500
+var x = findMax(5, 32, 24); // 32
+
+//spread operator
+function sum(x, y, ...more) {
+    // “more” is array of all extra passed params
+    var total = x + y;
+    if (more.length > 0) {
+        for (var i = 0; i < more.length; i++) {
+            total += more[i];
+        }
+    }
+    console.log(total);
+}
+
+sum(4, 4); // 8 
+sum(4, 4, 4); // 12
+
+
+//function object => function expression
+sayHi();
+
+function sayHi() {
+    console.log('Hi');
+}
+
+var sayHi = function () {
+    console.log('Hi');
+}

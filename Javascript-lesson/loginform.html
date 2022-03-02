@@ -13,7 +13,7 @@
 
 <body>
 
-    <form class="m-5" id="login-form">
+    <form class="m-5" id="login-form" action="loginform.html" onsubmit="console.log('......')">
         <div class="form-group mb-4">
             <label for="email">
                 Email Address<span class="text-danger">*</span>
@@ -36,7 +36,7 @@
             <input type="text" class="col-lg-6 form-control mt-2" id="website" name="website" placeholder="Website Url"
                 required pattern="^(http|https):\/\/.*$" title="url must contains http:// or https://">
         </div>
-        <input type="submit" value="Submit" class="btn btn-primary" onclick="login()">
+        <input type="submit" value="Submit" class="btn btn-primary" id="login">
     </form>
     <p id="form-data"></p>
 </body>
